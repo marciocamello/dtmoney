@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom'
 import { App } from './App'
 import { makeServer } from './services/mirage';
 
-if (import.meta.env.VITE_NODE_ENV !== 'production') {
-    makeServer();
-}
+makeServer();
 
 ReactDOM.render(
     <React.StrictMode>
