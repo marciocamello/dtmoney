@@ -8,4 +8,6 @@ export const defaultTheme = {
     'text-body': '#969cb3',
     'background': '#f2f0f5',
     'shape': '#fff',
+    'input-border': '#d7d7d7',
+    'input-background': '#e7e9ee',
 }
